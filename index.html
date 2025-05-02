@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <div class="container">
+      <div class="p-div">
+        <p
+          style="
+            font-family: Helvetica;
+            font-weight: bold;
+            text-align: center;
+            font-size: x-large;
+          "
+        >
+          <u>Login Form</u>
+        </p>
+      </div>
+
+      <div class="main">
+        <div class="con"></div>
+        <div class="input-container">
+          <div>
+            <input
+              class="in1"
+              id="first-name"
+              type="text"
+              placeholder="First Name"
+            />
+          </div>
+          <div>
+            <input
+              class="in2"
+              id="last-name"
+              type="text"
+              placeholder="Last Name"
+            />
+          </div>
+        </div>
+
+        <input
+          class="input"
+          id="input-username"
+          type="text"
+          placeholder="Username"
+        />
+
+        <input class="input" id="input-email" type="text" placeholder="Email" />
+        <input
+          class="input"
+          id="input-password"
+          type="text"
+          placeholder="Password"
+        />
+        <input
+          class="input"
+          id="confirm-password"
+          type="text"
+          placeholder=" Confirm Password"
+        />
+
+        <div class="but">
+          <button class="btn" onclick="sendOTP(show)">
+            <b>Send OTP</b>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <img src="pic.png" class="pic" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

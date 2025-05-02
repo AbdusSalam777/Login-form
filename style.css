@@ -1,0 +1,142 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #d0ff72b1;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(to right, #ffffd4, #61a2ec);
+}
+
+.p-div {
+  margin-top: 50px;
+}
+
+.main {
+  position: absolute;
+  bottom: 100px;
+}
+
+.input {
+  display: block;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 220px;
+  margin-top: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.input:hover {
+  border-color: #61a2ec;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.input:focus {
+  border-color: #61a2ec;
+  outline: none;
+  box-shadow: 0 0 10px rgba(97, 162, 236, 0.3);
+}
+
+.input:active {
+  transform: scale(0.98);
+}
+
+.in1,
+.in2 {
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 85px;
+  margin-top: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.in1:hover,
+.in2:hover {
+  border-color: #61a2ec;
+  box-shadow: 10 4px 10px rgba(1, 1, 1, 0.15);
+}
+
+.in1:focus,
+.in2:focus {
+  border-color: #61a2ec;
+  outline: none;
+  box-shadow: 0 0 10px rgba(97, 162, 236, 0.3);
+}
+
+.in1:active,
+.in2:active {
+  transform: scale(0.98);
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.con {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.but {
+  margin-left: 190px;
+}
+
+.pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.btn {
+  font-family:  poppins;
+  font-size: 15px;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 33px;
+  width: 300px;
+  background-color: #00ff08;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
